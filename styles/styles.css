@@ -1,4 +1,68 @@
 * {
-  font-family: 'Inter', sans-serif;
   font-family: 'Work Sans', sans-serif;
+  /* root font size  is 16px ~ 1 rem */
+}
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 240px;
+}
+/* Styling Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 2.8rem;
+  color: #131313;
+  font-weight: 700;
+}
+nav > ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+
+/* Working on Banner */
+.banner-container {
+  width: 862px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-title {
+  color: #131313;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.btn-primary {
+  border-radius: 0.5rem;
+  background: #ff900e;
+  width: 11.5rem;
+  height: 4rem;
+  color: #fff;
+  font-size: 1.25rem;
+  border-style: none;
+  font-weight: 600;
 }

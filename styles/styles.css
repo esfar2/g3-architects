@@ -116,6 +116,25 @@ main {
   font-weight: 700;
 }
 
+/* Styling Cards */
+
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  width: 241.831px;
+  height: 241.831px;
+  /* transform: rotate(90deg); */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0; */
+}
+
 /* responsive media screens */
 
 /* mobile devices */
